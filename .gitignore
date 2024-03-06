@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+<<<<<<< HEAD
+=======
+
+### MySQL ###
+data/
+>>>>>>> 30d4f9b (update)

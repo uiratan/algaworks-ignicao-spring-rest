@@ -1,11 +1,21 @@
 package com.algaworks.algatransito.domain.model;
 
+<<<<<<< HEAD
 public class Proprietario {
 
+=======
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Proprietario {
+>>>>>>> 30d4f9b (update)
 	private Long id;
 	private String nome;
 	private String email;
 	private String telefone;
+<<<<<<< HEAD
 
 	public Long getId() {
 		return id;
@@ -39,4 +49,6 @@ public class Proprietario {
 		this.telefone = telefone;
 	}
 
+=======
+>>>>>>> 30d4f9b (update)
 }
