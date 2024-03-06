@@ -5,26 +5,20 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-<<<<<<< HEAD
-		<version>3.2.3</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-=======
-<!--		<version>3.1.9</version>-->
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-
->>>>>>> 30d4f9b (update)
 	<groupId>com.algaworks.algatransito</groupId>
 	<artifactId>algatransito-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>algatransito-api</name>
 	<description>API do AlgaTransito</description>
+
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -33,8 +27,6 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-<<<<<<< HEAD
-=======
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
@@ -48,13 +40,10 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
->>>>>>> 30d4f9b (update)
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 
-<<<<<<< HEAD
-=======
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -65,7 +54,6 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
->>>>>>> 30d4f9b (update)
 	</dependencies>
 
 	<build>
@@ -73,8 +61,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-<<<<<<< HEAD
-=======
+
 				<configuration>
 					<image>
 						<builder>paketobuildpacks/builder-jammy-base:latest</builder>
@@ -86,7 +73,7 @@
 						</exclude>
 					</excludes>
 				</configuration>
->>>>>>> 30d4f9b (update)
+
 			</plugin>
 		</plugins>
 	</build>

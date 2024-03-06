@@ -12,10 +12,7 @@ public class ProprietarioController {
 
 	@GetMapping("/proprietarios")
 	public List<Proprietario> listar() {
-<<<<<<< HEAD
 
-=======
->>>>>>> 30d4f9b (update)
 		var proprietario1 = new Proprietario();
 		proprietario1.setId(1L);
 		proprietario1.setNome("João");
